@@ -1,0 +1,69 @@
+# EcoCampus AI — Feature Specification
+
+## 1. Core MVP Features
+
+### Institution Setup
+- Register an institution.
+- Record institution type, population, buildings, and facilities.
+- Add or configure campus zones.
+- Upload or manually configure a campus map.
+- Review and approve AI-generated setup recommendations.
+
+### Campus Map
+- Display campus buildings and zones.
+- Mark waste bins and disposal facilities.
+- Provide disposal guidance for each waste category.
+- Identify reported cleanliness hotspots.
+
+### Student Awareness
+- Explain waste segregation.
+- Provide environmental awareness content.
+- Offer safe, voluntary eco-missions.
+- Track verified participation.
+- Show collective campus progress.
+
+### Cleanliness Reporting
+- Submit a report with category, location, description, and optional photo.
+- Track report status.
+- Prevent obvious duplicate reports where practical.
+- Allow authorised staff to review, assign, and resolve reports.
+- Record resolution evidence and status history.
+
+### Administration Dashboard
+- View reports and their current status.
+- Identify recurring cleanliness hotspots.
+- Track issue resolution times.
+- Review participation and awareness activity.
+- Monitor progress across campus zones.
+
+## 2. AI-Assisted Features
+- Help administrators configure institution information.
+- Identify missing setup details.
+- Suggest potential bin locations for human approval.
+- Generate contextual waste-disposal guidance.
+- Summarise recurring issues and recommend improvements.
+
+AI-generated recommendations must be clearly labelled and reviewable.
+
+## 3. Future Features
+- Support multiple institutions with separate portals.
+- Add more advanced campus-map imports.
+- Integrate waste sensors where available.
+- Improve image-based waste identification.
+- Add cross-institution comparisons using privacy-preserving aggregate data.
+
+## 4. Out of Scope for the Initial MVP
+- Automatic physical waste sorting hardware.
+- Guaranteed waste-generation predictions from population alone.
+- Unverified claims about environmental impact.
+- Automatic closure of reports without authorised verification.
+- Public shaming or punitive student rankings.
+
+## 5. MVP Success Criteria
+- An institution can configure its campus.
+- Students can access disposal guidance.
+- Students can submit and track cleanliness reports.
+- Staff can update and verify report resolution.
+- Dashboard metrics reflect actual stored records.
+- Student participation is tracked transparently.
+- Institution data is protected from unauthorised access.
